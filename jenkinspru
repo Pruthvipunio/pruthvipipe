@@ -1,6 +1,6 @@
 pipeline {
   agent any;
-  satges {
+  stages {
      stage ('BUILD') {
        steps {
          echo "This is Build stage"
